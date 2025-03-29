@@ -69,15 +69,26 @@ mvn test -Dsurefire.rerunFailingTestsCount=1
 ## **📂 Project Structure**
 
 ```
-|-- src/main/java
-|   |-- pages/              # Page Object Model classes
-|-- src/test/java/
-|   |-- runners/            # Test Runner (TestNG)
-|   |-- steps/              # Step Definitions
-    |-- resources
-|       |-- features/       # Cucumber Feature Files
-|-- pom.xml                 # Maven Configuration File
-|-- README.md               # Project Documentation
+src
+├── main/java/pages
+│ ├── CartPage.java
+│ ├── CheckoutPage.java
+│ ├── HomePage.java
+│ ├── LoginPage.java
+├── test/java
+│ ├── resources/features
+│ │ ├── cart.feature
+│ │ ├── checkout.feature
+│ │ ├── login.feature
+│ ├── runners
+│ │ ├── TestRunner.java
+│ ├── steps
+│ │ ├── BaseTest.java
+│ │ ├── CartSteps.java
+│ │ ├── CheckoutSteps.java
+│ │ ├── LoginSteps.java
+├── README.md
+└── pom.xml
 ```
 
 ---
