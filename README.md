@@ -32,7 +32,7 @@ Ensure the following are installed on your system:
 ### **2️⃣ Clone the Repository**
 
 ```sh
-git clone https://github.com/yourusername/demoblaze-automation.git
+git clone https://github.com/Dor951/demoblaze-automation.git
 cd demoblaze-automation
 ```
 
