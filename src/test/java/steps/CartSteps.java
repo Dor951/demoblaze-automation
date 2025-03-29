@@ -15,7 +15,7 @@ public class CartSteps {
     CartPage cartPage = new CartPage(driver);
 
     @When("User adds {string} to the cart")
-    public void user_adds_product_to_cart(String productName) throws InterruptedException {
+    public void user_adds_product_to_cart(String productName) {
         homePage.selectProduct(productName);
         homePage.addToCart();
         homePage.acceptAlert();
